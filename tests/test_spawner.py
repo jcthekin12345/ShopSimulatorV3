@@ -1,7 +1,6 @@
 ﻿# tests/test_spawner.py
-import random
 import unittest
-from spawner import spawn_customer
+from src.spawner import spawn_customer
 from unittest.mock import patch
 
 
