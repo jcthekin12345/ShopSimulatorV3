@@ -1,13 +1,11 @@
 [project]
 name = "shopsimulator"
 version = "0.1.0"
-description = "A 3D shop simulator game built with Panda3D, allowing players to manage a virtual shop with customers, inventory, and transactions in an immersive 3D environment."
+description = "A text-based shop simulator game built with urwid, allowing players to manage a virtual shop with customers, inventory, and transactions in an interactive terminal interface."
 requires-python = ">=3.8"
 dependencies = [
-    "panda3d==1.10.15",
-    "panda3d-simplepbr", # For physically-based rendering
+    "urwid>=2.1.0", # For text-based user interface
     "numpy", # For mathematical operations
-    "pillow", # For image processing
 ]
 
 [project.optional-dependencies]
