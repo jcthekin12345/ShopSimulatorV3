@@ -2,6 +2,7 @@
 
 random.seed()
 
+
 def spawn_customer():
     """
     Generates a random budget for a customer.
